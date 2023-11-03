@@ -8,10 +8,5 @@ proxy-providers:
 proxy-groups:
   - name: 🚀 节点选择
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - DIRECT
-      - 自建节点1
-      - 自己节点2
     use:
       - touhou-provider
