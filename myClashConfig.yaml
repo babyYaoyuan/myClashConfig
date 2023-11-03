@@ -1,1 +1,7 @@
 # hello yaoyuan 1
+proxy-providers:
+  touhou-provider:
+    type: http
+    path: ./touhou.yaml
+    url: "https://api.touhou.center/link/i5TgtSuyw1tH2snv?clash=1"
+    interval: 3600
