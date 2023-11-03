@@ -5,3 +5,13 @@ proxy-providers:
     path: ./touhou.yaml
     url: "https://api.touhou.center/link/i5TgtSuyw1tH2snv?clash=1"
     interval: 3600
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 自建节点1
+      - 自己节点2
+    use:
+      - touhou-provider
